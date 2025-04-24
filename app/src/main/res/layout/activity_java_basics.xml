@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Java Basics"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingBottom="12dp" />
+
+        <!-- What is Java -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is Java?\nJava is a high-level, object-oriented programming language used to develop web, mobile, and desktop applications. It is known for being platform independent using the JVM (Java Virtual Machine)."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <!-- Why Learn Java -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why Learn Java?\n• Easy to understand for beginners\n• Widely used in Android development\n• Strong community and support\n• Object-Oriented (real-world modeling)"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <!-- Basic Structure -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Structure of a Java Program:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EFEFEF"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="public class Main {\n    public static void main(String[] args) {\n        System.out.println();\n    }\n}"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nExplanation:\n- class: Blueprint for objects\n- main(): Entry point of Java program\n- System.out.println(): Outputs text"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <!-- Core Concepts -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Core Java Concepts:\n• Variables – Store data (e.g., int age = 20;)\n• Data Types – int, float, char, boolean, etc.\n• Operators – +, -, *, /, %\n• Conditionals – if, else, switch\n• Loops – for, while, do-while\n• Functions – Reusable blocks of code\n• OOP Basics – class, object, inheritance"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <!-- Example -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Example: Print Your Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EFEFEF"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="public class NamePrinter {\n    public static void main(String[] args) {\n  System.out.println()\n}" />
+
+        <!-- Tips -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nTips for Beginners:\n• Practice regularly\n• Start small and build up\n• Focus on logic\n• Ask doubts and try small projects"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="24dp" />
+
+    </LinearLayout>
+</ScrollView>

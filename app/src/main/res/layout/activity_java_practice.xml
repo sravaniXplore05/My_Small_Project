@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtJavaPractice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="HELLO BUDDIES\nJava Practice:choose your level"
+        android:textSize="25sp"
+        android:textColor="@color/violet"
+        android:textAlignment="center"
+        android:paddingBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnlevel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="@color/black"
+        android:text="Level 1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="60dp"
+        android:text="Level 2"
+        android:id="@+id/btnlevel2"
+        android:backgroundTint="@color/black"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="60dp"
+        android:text="Level 3"
+        android:id="@+id/btnlevel3"
+        android:backgroundTint="@color/black"/>
+
+
+</LinearLayout>
