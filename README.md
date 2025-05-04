@@ -1,6 +1,6 @@
 # Java Practice Android App
 
-A beginner-friendly Android application designed to help users practice Java programming through level-based tasks and a mini real-world assignment. The app is interactive, motivational, and perfect for learners preparing for interviews or coding basics.
+A beginner-friendly Android application designed to help users practice Java programming through level-based tasks and a mini real-world assignment. The app is interactive, motivational, and perfect for learners preparing for Students
 
 ---
 
