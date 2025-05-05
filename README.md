@@ -6,7 +6,7 @@ A beginner-friendly Android application designed to help users practice Java pro
 
 ## Features
 - **Java Theory and Basics**
-  concepts in java and simple syntax  
+  concepts in java and simple syntax.  
 
 - **Level-Based Practice**  
   Practice basic Java concepts using levels with simple programming questions like if-else, loops, etc.
