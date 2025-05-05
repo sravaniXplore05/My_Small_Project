@@ -4,13 +4,6 @@ A beginner-friendly Android application designed to help users practice Java pro
 
 ---
 
-## ▶️ Demo Video
-
-[▶️ Watch on YouTube](https://youtu.be/your-video-link)  
-*(Replace the link with your actual uploaded demo video)*
-
----
-
 ## Features
 - **Java Theory and Basics**
   concepts in java and simple syntax  
